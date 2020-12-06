@@ -214,7 +214,6 @@ public class MyRouting implements IOFMessageListener, IFloodlightModule {
 			/**
 			 * Add all the list of all host in the network to the HashMap
 			 */
-
 			for (IDevice device : devices) {
 				// System.out.println("host : " + device.getDeviceKey());
 				// System.out.println("host atta: " +
